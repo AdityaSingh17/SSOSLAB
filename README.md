@@ -23,3 +23,6 @@ yacc -d prog.y
 cc lex.yy.c y.tab.c
 ./a.out
 ```
+
+### NOTE:
+Press **CTRL+d** to terminate the Lexer process and view the final output of the program. 
